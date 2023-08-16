@@ -1,0 +1,83 @@
+body{
+    background-image: url('Career.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: Left;
+    color: black;
+    background-color :rgba(0, 0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul {
+    padding: 0.5px;
+}
+nav ul li {
+    display: inline;
+    padding:5px;
+}
+nav ul li a
+{   border: 0px solid white;
+    padding: 5px 5px;
+    color: white;
+    border-radius:10px;
+    align-items: left;
+
+}
+
+nav ul li a:hover{
+    background-color: aqua ;
+    color:white;
+}
+
+.one{
+    height:30vh;
+    width:100%
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.containerone, .containertwo,.containerthree,.containerfour{
+    border: 1px soli gray;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter:blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.two{
+    height:30vh;
+    width:100%
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+.three{
+    height:15vh;
+    width:100%
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 auto;
+}
+.four{
+    height:10vh;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content:left;
+    align-items:left;
+    margin: 0 auto;
+}
